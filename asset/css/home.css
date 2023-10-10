@@ -11,6 +11,24 @@ body {
   font-size: 16px;
 }
 
+header .search-box {
+  position: relative;
+  width: 350px;
+  height: 40px;
+}
+header .search-box input {
+  width: calc(100% - 32px);
+  height: 100%;
+  padding-left: 10px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #ebeef1;
+}
+header .search-box i {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
 header img {
   height: 66px;
 }
@@ -123,6 +141,40 @@ header img {
   padding: 0 5px;
 }
 .global-map .card-row-min {
+  background-color: transparent;
+}
+
+.title-border {
+  position: relative;
+  height: 44px;
+  margin-top: 20px;
+}
+.title-border span {
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 36px;
+  color: #2fa1b3;
+  z-index: 1;
+  background-color: #fff;
+}
+.title-border::before {
+  content: "";
+  height: 3px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: 5px;
+  background-color: #2fa1b3;
+}
+
+.bm-p {
+  background-color: #eef8f9;
+  padding: 10px;
+  border-radius: 2px;
+}
+.bm-p .card {
   background-color: transparent;
 }
 
