@@ -7,16 +7,20 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-size: 16px;
 }
 
-header .search-box {
+.search-box {
   position: relative;
   width: 350px;
   height: 40px;
 }
-header .search-box input {
+.search-box input {
   width: calc(100% - 32px);
   height: 100%;
   padding-left: 10px;
@@ -24,21 +28,29 @@ header .search-box input {
   outline: none;
   border: 1px solid #ebeef1;
 }
-header .search-box i {
+.search-box i {
   position: absolute;
   right: 40px;
   top: 30%;
 }
+
 header img {
   height: 66px;
 }
 
 .navbar {
   background-color: #2fa1b3 !important;
+  padding: 0;
 }
 .navbar .nav-link {
   color: #fff !important;
   font-weight: 600;
+}
+.navbar .nav-item:hover {
+  background-color: #2b94a5;
+}
+.navbar .nav-item a {
+  text-transform: uppercase;
 }
 
 .card {
@@ -182,6 +194,18 @@ header img {
 }
 .bm-p .card {
   background-color: transparent;
+}
+
+footer {
+  background-color: #2fa1b3;
+  height: 50px;
+}
+footer > div {
+  height: 100%;
+}
+footer img {
+  height: 100%;
+  width: auto;
 }
 
 @keyframes slide {

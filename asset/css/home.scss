@@ -5,38 +5,50 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+a {
+  text-decoration: none;
+}
 body {
   font-size: 16px;
 }
-header {
-  .search-box {
-    position: relative;
-    width: 350px;
-    height: 40px;
-    input {
-      width: calc(100% - 32px);
-      height: 100%;
-      padding-left: 10px;
-      font-size: 12px;
-      outline: none;
-      border: 1px solid #ebeef1;
-    }
-    i {
-      position: absolute;
-      right: 40px;
-      top: 30%;
-    }
+.search-box {
+  position: relative;
+  width: 350px;
+  height: 40px;
+  input {
+    width: calc(100% - 32px);
+    height: 100%;
+    padding-left: 10px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #ebeef1;
   }
+  i {
+    position: absolute;
+    right: 40px;
+    top: 30%;
+  }
+}
+header {
   img {
     height: 66px;
   }
 }
 .navbar {
   background-color: #2fa1b3 !important;
+  padding: 0;
   .nav-link {
     color: #fff !important;
     font-weight: 600;
+  }
+  .nav-item {
+    &:hover {
+      background-color: #2b94a5;
+    }
+    a {
+      text-transform: uppercase;
+      
+    }
   }
 }
 
@@ -177,7 +189,20 @@ header {
     background-color: transparent;
   }
 }
-
+footer {
+  background-color: #2fa1b3;
+  height: 50px;
+  & > div {
+    height: 100%;
+  }
+  img {
+    height: 100%;
+    width: auto;
+  }
+  // a {
+  //   color: #0000 !important;
+  // }
+}
 @keyframes slide {
   0% {
     transform: translateX(0);
