@@ -169,10 +169,16 @@ header img {
   background-color: #2fa1b3;
 }
 
+.color-orange span {
+  color: #db562b;
+}
+.color-orange::before {
+  background-color: #db562b;
+}
+
 .bm-p {
   background-color: #eef8f9;
   padding: 10px;
-  border-radius: 2px;
 }
 .bm-p .card {
   background-color: transparent;
