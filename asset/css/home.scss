@@ -199,9 +199,9 @@ footer {
     height: 100%;
     width: auto;
   }
-  // a {
-  //   color: #0000 !important;
-  // }
+  a {
+    color: rgba($color: #000000, $alpha: 1.0) !important;
+  }
 }
 @keyframes slide {
   0% {

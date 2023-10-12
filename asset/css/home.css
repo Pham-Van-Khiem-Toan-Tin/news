@@ -207,6 +207,9 @@ footer img {
   height: 100%;
   width: auto;
 }
+footer a {
+  color: black !important;
+}
 
 @keyframes slide {
   0% {
