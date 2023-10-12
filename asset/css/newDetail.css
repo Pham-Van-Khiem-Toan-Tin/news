@@ -1,1 +1,130 @@
-/*# sourceMappingURL=newDetail.css.map */
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+}
+
+.search-box {
+  position: relative;
+  width: 350px;
+  height: 40px;
+}
+.search-box input {
+  width: calc(100% - 32px);
+  height: 100%;
+  padding-left: 10px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #ebeef1;
+}
+.search-box i {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
+
+header img {
+  height: 66px;
+}
+
+.navbar {
+  background-color: #2fa1b3 !important;
+  padding: 0;
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar .nav-item:hover {
+  background-color: #2b94a5;
+}
+.navbar .nav-item a {
+  text-transform: uppercase;
+}
+
+.new-content {
+  border-top: 4px solid #e2e7ec;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.new-content .new-time-des span {
+  font-size: 12px;
+  display: inline-block;
+  padding: 0 10px;
+}
+.new-content .new-time-des span:nth-child(2) {
+  font-weight: 600;
+  border-left: 1px solid black;
+}
+.new-content .new-share-btnGroup button {
+  padding: 2px 12px;
+}
+.new-content .new-share-btnGroup button i {
+  fill: transparent;
+}
+
+.title-related {
+  color: #0b5bac;
+  border-left: 4px solid #ff8503;
+  padding-left: 10px;
+  margin: 20px 0 10px 0;
+}
+
+.card {
+  border: none !important;
+}
+.card .card-logo-ref {
+  height: 16px;
+  width: auto;
+}
+.card .card-description {
+  font-size: 12px;
+}
+
+.new-comment {
+  background-color: #f6f6f6;
+  margin-top: 10px;
+  padding: 10px;
+}
+.new-comment textarea {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+
+.card-row-min .card-body {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.card-row-min .img-card-row {
+  width: 80px;
+  height: 80px;
+}
+
+footer {
+  background-color: #2fa1b3;
+  height: 50px;
+}
+footer > div {
+  height: 100%;
+}
+footer img {
+  height: 100%;
+  width: auto;
+  filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(58deg) brightness(120%) contrast(108%);
+}
+footer a {
+  color: black !important;
+}/*# sourceMappingURL=newDetail.css.map */
