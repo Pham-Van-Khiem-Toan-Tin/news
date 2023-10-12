@@ -1,0 +1,221 @@
+@charset "UTF-8";
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+}
+
+.search-box {
+  position: relative;
+  width: 350px;
+  height: 40px;
+}
+.search-box input {
+  width: calc(100% - 32px);
+  height: 100%;
+  padding-left: 10px;
+  font-size: 12px;
+  outline: none;
+  border: 1px solid #ebeef1;
+}
+.search-box i {
+  position: absolute;
+  right: 40px;
+  top: 30%;
+}
+
+header img {
+  height: 66px;
+}
+
+.navbar {
+  background-color: #2fa1b3 !important;
+  padding: 0;
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar .nav-item:hover {
+  background-color: #2b94a5;
+}
+.navbar .nav-item a {
+  text-transform: uppercase;
+}
+
+.card {
+  border: none !important;
+}
+.card .card-logo-ref {
+  height: 16px;
+  width: auto;
+}
+.card .card-description {
+  font-size: 12px;
+}
+
+.rule {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+.subsection-title {
+  color: #e78632;
+  border-left: 2px solid #e78632;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-row .img-card-row {
+  height: 100px;
+  width: auto;
+}
+.card-row .card-body {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.load-more {
+  box-shadow: #ccc;
+  padding: 10px 0;
+}
+
+.card-row-min .card-body {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.card-row-min .img-card-row {
+  width: 80px;
+  height: 80px;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%; /* Điều chỉnh kích thước container theo ý muốn */
+}
+.slider-container .slider {
+  display: flex;
+  gap: 10px;
+  animation: slide 5s linear infinite; /* Thay đổi thời gian và kiểu chuyển động theo ý muốn */
+}
+.slider-container .slider .slide {
+  width: 20%; /* Điều chỉnh kích thước slide theo ý muốn */
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.slider-container .slider .slide img {
+  height: 16px;
+  width: auto;
+}
+
+.banner-hcm {
+  padding: 15px 15px 8px 15px;
+  background-color: #f7f7f7;
+}
+.banner-hcm img {
+  width: 100%;
+  height: auto;
+}
+
+.global-map {
+  background-image: url(/asset/images/global-map.png);
+  margin-top: 20px;
+  padding: 15px;
+}
+.global-map h3 {
+  color: #db5643;
+  text-transform: uppercase;
+}
+.global-map select {
+  width: 100%;
+  border: 1px solid #f3eac4;
+  background-color: #fefcf0;
+  cursor: pointer;
+  height: 32px;
+  outline: none;
+  line-height: 32px;
+  border-radius: 3px;
+  padding: 0 5px;
+}
+.global-map .card-row-min {
+  background-color: transparent;
+}
+
+.title-border {
+  position: relative;
+  height: 44px;
+  margin-top: 20px;
+}
+.title-border span {
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 36px;
+  color: #2fa1b3;
+  z-index: 1;
+  background-color: #fff;
+}
+.title-border::before {
+  content: "";
+  height: 3px;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  bottom: 5px;
+  background-color: #2fa1b3;
+}
+
+.color-orange span {
+  color: #db562b;
+}
+.color-orange::before {
+  background-color: #db562b;
+}
+
+.bm-p {
+  background-color: #eef8f9;
+  padding: 10px;
+}
+.bm-p .card {
+  background-color: transparent;
+}
+
+footer {
+  background-color: #2fa1b3;
+  height: 50px;
+}
+footer > div {
+  height: 100%;
+}
+footer img {
+  height: 100%;
+  width: auto;
+}
+footer a {
+  color: black !important;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Chạy qua trái */
+  }
+}/*# sourceMappingURL=home.css.map */
